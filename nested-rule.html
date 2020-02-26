@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>
+            Nested rules
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Nested rules</h1>
+            <p>
+                All tags in HTML had better be <q>nested</q> correctly. That means when a tag is open, there must a close
+                tag.
+            </p>
+        </header>
+
+        <main>
+            <p>
+                When you write a tag inside of an another tag, you need to be careful to the order where each tag should be open
+                and ended.
+            </p>
+            <h2>
+                These are some examples:
+            </h2>
+            <nav>
+                <ol>
+                    <li>
+                        <b>Right nested :</b><br>
+                        &lt;body&gt;
+                            &lt;h1&gt;
+                            &lt;p&gt;
+                            &lt;/p&gt;
+                            &lt;/h1&gt;
+                        &lt;/body&gt;
+                    </li>
+                    <li>
+                        <b>Wrong nested :</b><br>
+                        &lt;nav&gt;
+                        &lt;ul&gt;
+                        &lt;li&gt;
+                        &lt;/ul&gt;
+                        &lt;/nav&gt;
+                        &lt;/li&gt;
+                    </li>
+                </ol>
+            </nav>
+        </main>
+
+        <footer>
+            <p>
+                <b>Click:</b> 
+                <a href="rules.html">
+                    go back to the rules
+                </a>
+            </p>
+        </footer>
+    </body>
+</html>
