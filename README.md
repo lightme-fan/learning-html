@@ -23,5 +23,7 @@ There are two links:
 
 ### Elements
 
+All the elements are written in this section.
+
 ### Tips
 
