@@ -27,3 +27,4 @@ All the elements are written in this section.
 
 ### Tips
 
+In this section, you can see how to write HTML faster, tools and how to make your code in a high-quality.
